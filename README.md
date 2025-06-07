@@ -25,7 +25,7 @@ This repository evaluates classification performance on CIFAR10, CIFAR100, and M
 * `turningpoint-ai/VisualThinker-R1-Zero`
 
   * Qwen2-VL-2B trained via GRPO on the SAT dataset.
-  * Checkpoint provided by [turningpoint-ai](https://github.com/Deep-Agent/R1-V).
+  * Checkpoint provided by [Deep-Agent/R1-V](https://github.com/Deep-Agent/R1-V).
 
 * `cosmos1030/Qwen2_VL-2B-SFT_revised2`
 
