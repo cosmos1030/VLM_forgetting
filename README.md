@@ -86,3 +86,24 @@ Results (accuracy, confusion matrices, etc.) will be saved under the specified `
 | MNIST       | Qwen2-VL-2B (zeroshot)    | 69.05            |
 |             | VisualThinker-GRPO        | 71.41            |
 |             | VisualThinker-SFT         | 38.65            |
+
+
+Qwen2.5-VL-3B-Instruct (zero shot)
+cifar10: 85.34
+cifar100: 50.80
+MNIST: 68.49
+
+Qwen2.5-VL-3B-Instruct-OVD-grpo
+cifar10: 85.50
+cifar100: 52.45
+MNIST: 66.53
+
+Qwen2.5-VL-3B-Instruct-math-grpo
+cifar10: 85.64
+cifar100: 51.04
+MNIST: 75.30
+
+Qwen2.5-VL-3B-Instruct-rec-grpo
+cifar10: 85.56
+cifar100: 51.12
+MNIST: 66.39
