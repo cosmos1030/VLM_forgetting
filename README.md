@@ -74,3 +74,15 @@ python <path of main.py> \
 ### Results
 
 Results (accuracy, confusion matrices, etc.) will be saved under the specified `output_dir`. Use these outputs to compare forgetting across models and finetuning methods.
+
+| **Dataset** | **Model**                 | **Accuracy (%)** |
+|-------------|---------------------------|------------------|
+| CIFAR10     | Qwen2-VL-2B (zeroshot)    | 83.48            |
+|             | VisualThinker-GRPO        | 84.37            |
+|             | VisualThinker-SFT         | 40.45            |
+| CIFAR100    | Qwen2-VL-2B (zeroshot)    | 37.00            |
+|             | VisualThinker-GRPO        | 36.67            |
+|             | VisualThinker-SFT         | 4.73             |
+| MNIST       | Qwen2-VL-2B (zeroshot)    | 69.05            |
+|             | VisualThinker-GRPO        | 71.41            |
+|             | VisualThinker-SFT         | 38.65            |
