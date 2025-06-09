@@ -107,3 +107,8 @@ Qwen2.5-VL-3B-Instruct-rec-grpo
 cifar10: 85.56
 cifar100: 51.12
 MNIST: 66.39
+
+Qwen2.5-VL-3B-Instruct-gui-grpo
+cifar10: 88.22
+cifar100: 64.37
+MNIST: 96.04
