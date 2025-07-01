@@ -33,7 +33,7 @@ parser.add_argument(
 )
 args = parser.parse_args()
 
-# 1. 환경 설정 및 하이퍼파라미터
+# 1. Env setting and hyperparam
 # ==============================================================================
 MODEL_ID = args.model_id
 DATASET = args.dataset # ["CIFAR10", "CIFAR100", "MNIST"]
@@ -55,7 +55,7 @@ if DATASET == "MNIST":
     NUM_CLASSES= 10
     DatasetClass = MNIST
 
-# GPU 사용 설정
+# GPU setting
 device = f"cuda:{args.cuda_device}" if torch.cuda.is_available() else "cpu"
 print(f"Using device: {device}")
 
@@ -73,7 +73,7 @@ wandb_config = {
 }
 wandb.init(project=f"Qwen_AttentiveProbing", name=f"{DATASET}_{MODEL_ID}", config=wandb_config)
 
-# 2. 모델 및 프로세서 로드
+# 2. load model and processor
 # ==============================================================================
 print("Loading Qwen model and processor...")
 model = Qwen2_5_VLForConditionalGeneration.from_pretrained(MODEL_ID, torch_dtype=torch.bfloat16)
@@ -84,7 +84,7 @@ del model
 vision_encoder.to(device).eval()
 print("Model and processor loaded.")
 
-# 3. Linear Probing을 위한 모델 정의
+# 3. define model for linear probing
 # ==============================================================================
 class AttentiveProbingQwenVL(nn.Module):
     def __init__(self, vision_encoder, num_classes):
@@ -122,7 +122,7 @@ class AttentiveProbingQwenVL(nn.Module):
         logits = self.attentive_classifier(reshaped)
         return logits
 
-# 4. 데이터셋 준비
+# 4. prepare dataset
 # ==============================================================================
 print(f"Loading and preparing {DATASET} dataset...")
 train_dataset_full = DatasetClass(root='./data', train=True, download=True)
@@ -144,7 +144,7 @@ test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False, col
 
 print(f"Dataset prepared: {len(train_dataset)} training, {len(val_dataset)} validation, {len(test_dataset)} test samples.")
 
-# 5. 학습 준비
+# 5. prepare training
 # ==============================================================================
 probing_model = AttentiveProbingQwenVL(vision_encoder, NUM_CLASSES).to(device).to(dtype=torch.bfloat16)
 criterion = nn.CrossEntropyLoss()
@@ -152,11 +152,10 @@ optimizer = optim.Adam(probing_model.attentive_classifier.parameters(), lr=LEARN
 
 print("Starting training...")
 
-# ✅ 1. 최고 성능 및 에포크 저장을 위한 변수 초기화
 best_val_accuracy = 0.0
 best_epoch = 0
 
-# 6. 학습 및 검증 루프
+# 6. training and validation loop
 # ==============================================================================
 for epoch in range(EPOCHS):
     # --- Training ---
@@ -209,17 +208,15 @@ for epoch in range(EPOCHS):
         "val_accuracy": val_accuracy
     })
 
-    # ✅ 2. 검증 성능 비교 및 최고 성능 모델/에포크 저장
     if val_accuracy > best_val_accuracy:
         best_val_accuracy = val_accuracy
-        best_epoch = epoch + 1 # 에포크 번호는 1부터 시작하므로 +1
+        best_epoch = epoch + 1
         torch.save(probing_model.state_dict(), CHECKPOINT_PATH)
-        # 저장 메시지에 에포크 번호도 함께 출력
         print(f"🎉 New best model saved at Epoch {best_epoch}! Validation Accuracy: {val_accuracy:.2f}%")
 
 print("Training finished.")
 
-# 7. 최종 테스트 및 성능 평가
+# 7. Final test and analysis
 # ==============================================================================
 print(f"\nLoading best model from '{CHECKPOINT_PATH}' for final evaluation...")
 if os.path.exists(CHECKPOINT_PATH):
@@ -244,7 +241,6 @@ with torch.no_grad():
 
 test_accuracy = 100 * test_correct / test_total
 print(f"==========================================")
-# ✅ 3. 최종 결과에 최고 성능 에포크 정보 추가
 print(f"🏆 Best model was from Epoch {best_epoch} with Validation Accuracy: {best_val_accuracy:.2f}%")
 print(f"✅ Final Test Accuracy (on best model): {test_accuracy:.2f}%")
 print(f"==========================================")
