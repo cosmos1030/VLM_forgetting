@@ -1,0 +1,65 @@
+ground_truth,prediction,generated_text
+horse,horse," The image is a horse.
+"
+horse,horse," The image is a horse.
+"
+automobile,automobile," The image is an automobile.
+"
+horse,horse," The image is a horse.
+"
+bird,bird," The image is a bird.
+"
+truck,truck," The image is a truck.
+"
+horse,horse," The image is a horse.
+"
+dog,dog," The image is a dog.
+"
+bird,bird," The image is a bird.
+"
+airplane,airplane," The image is airplane.
+"
+truck,truck," The image is a truck.
+"
+bird,bird," The image is a bird.
+"
+bird,bird," The image is a bird.
+"
+frog,bird," The image is a bird.
+"
+horse,horse," The image is a horse.
+"
+ship,ship," The image is a ship.
+"
+dog,dog," The image is a dog.
+"
+bird,deer," The image is a deer.
+"
+dog,dog," The image is a dog.
+"
+cat,cat," The image is a cat.
+"
+airplane,airplane," The image is airplane.
+"
+ship,ship," The image is a ship.
+"
+automobile,automobile," The image is an automobile.
+"
+airplane,airplane," The image is airplane.
+"
+horse,horse," The image is a horse.
+"
+horse,bird," The image is a bird.
+"
+deer,deer," The image is a deer.
+"
+automobile,automobile," The image is an automobile.
+"
+deer,deer," The image is a deer.
+"
+ship,ship," The image is a ship.
+"
+dog,dog," The image is a dog.
+"
+truck,truck," The image is a truck.
+"

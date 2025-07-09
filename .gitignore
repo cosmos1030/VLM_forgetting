@@ -1,0 +1,14 @@
+*.pth
+wandb/
+__pycache__/
+data/
+**/*.png
+**/*.jpg
+*.json
+*.txt
+*.tar
+*.tar.gz
+data_batch*
+*.html
+batches.meta
+test_batch

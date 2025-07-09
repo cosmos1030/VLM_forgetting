@@ -40,6 +40,21 @@ This repository evaluates classification performance on CIFAR10, CIFAR100, and M
 
   * Instruct-tuned version of Qwen2-VL-2B.
 
+* `Qwen/Qwen2.5-VL-3B-Instruct`
+
+* `omlab/VLM-R1-Qwen2.5VL-3B-OVD-0321`
+  * https://github.com/om-ai-lab/VLM-R1?tab=readme-ov-file
+
+* `omlab/VLM-R1-Qwen2.5VL-3B-Math-0305`
+
+* `omlab/Qwen2.5VL-3B-VLM-R1-REC-500steps`
+
+* `konkazzz/GT-r1`
+
+* `cosmos1030/Qwen2.5_VL-3B-rec-SFT`
+
+* `cosmos1030/Qwen2.5_VL-3B-Instruct-GUI-SFT`
+
 ---
 
 ### Running the Evaluator
@@ -112,3 +127,8 @@ Qwen2.5-VL-3B-Instruct-gui-grpo
 cifar10: 88.22
 cifar100: 64.37
 MNIST: 96.04
+
+Qwen2.5-VL-3B-Instruct-gui-sft (3epochs)
+cifar10: 83.44
+cifar100: 47.92
+MNIST: 16.95
