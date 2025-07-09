@@ -12,3 +12,9 @@ data_batch*
 *.html
 batches.meta
 test_batch
+*.jpg
+*.zip
+*.safetensors
+*.bin
+latest
+*.pt

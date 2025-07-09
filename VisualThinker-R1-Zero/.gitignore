@@ -1,0 +1,25 @@
+*.log
+*.tmp
+*.csv
+*.json
+*.parquet
+*.png
+*.jpg
+
+# dependency directories
+src/open-r1-multimodal/src/open_r1/__pycache__/
+
+# Python cache
+__pycache__/
+
+# Egg info
+*.egg-info/
+
+# wandb
+src/open-r1-multimodal/wandb/
+
+# folder
+src/open-r1-multimodal/trajectories/
+
+# outputs
+src/open-r1-multimodal/outputs/
