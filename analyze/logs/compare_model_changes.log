@@ -1,0 +1,47 @@
+2025-06-25 20:58:37,856 INFO: === Starting parameter change comparison ===
+2025-06-25 20:58:37,857 INFO: [BASE] Loading & extracting state_dict...
+2025-06-25 20:58:38,204 INFO: Loading model 'Qwen/Qwen2.5-VL-3B-Instruct' with 1 GPUs, max_memory={0: '15GiB', 'cpu': '100GiB'}
+2025-06-25 20:58:53,445 INFO: [BASE] state_dict extracted, GPU cache cleared
+2025-06-25 20:58:53,445 INFO: [SFT] Loading & extracting state_dict...
+2025-06-25 20:58:53,473 INFO: Loading model 'cosmos1030/Qwen2.5_VL-3B-rec-SFT-500steps' with 1 GPUs, max_memory={0: '15GiB', 'cpu': '100GiB'}
+2025-06-25 20:59:05,399 INFO: [SFT] state_dict extracted, GPU cache cleared
+2025-06-25 20:59:05,399 INFO: [RL] Loading & extracting state_dict...
+2025-06-25 20:59:05,399 INFO: Loading model 'omlab/Qwen2.5VL-3B-VLM-R1-REC-500steps' with 1 GPUs, max_memory={0: '15GiB', 'cpu': '100GiB'}
+2025-06-25 20:59:32,107 INFO: [RL] state_dict extracted, GPU cache cleared
+2025-06-25 20:59:41,892 INFO: Computed change DataFrame: 824 parameters compared
+2025-06-25 20:59:52,155 INFO: Computed change DataFrame: 824 parameters compared
+2025-06-25 20:59:52,155 INFO: === Global change ratios ===
+2025-06-25 20:59:52,156 INFO: Global change: 676876658/3754622976 = 0.1803
+2025-06-25 20:59:52,156 INFO: SFT: 18.03%
+2025-06-25 20:59:52,156 INFO: Global change: 636670907/3754622976 = 0.1696
+2025-06-25 20:59:52,156 INFO: RL:  16.96%
+2025-06-25 20:59:52,156 INFO: === Top 10 changed parameters ===
+2025-06-25 20:59:52,163 INFO: SFT:
+                                           param  change_ratio
+             visual.blocks.28.mlp.gate_proj.bias      0.697076
+language_model.layers.34.self_attn.k_proj.weight      0.362623
+language_model.layers.35.self_attn.k_proj.weight      0.350594
+language_model.layers.31.self_attn.k_proj.weight      0.344051
+language_model.layers.33.self_attn.k_proj.weight      0.341793
+    language_model.layers.1.mlp.down_proj.weight      0.334031
+                visual.blocks.0.attn.proj.weight      0.319520
+                visual.blocks.1.attn.proj.weight      0.317566
+language_model.layers.27.self_attn.k_proj.weight      0.309191
+                  visual.patch_embed.proj.weight      0.307701
+2025-06-25 20:59:52,165 INFO: RL:
+                              param  change_ratio
+visual.blocks.28.mlp.gate_proj.bias      0.652924
+   visual.blocks.0.attn.proj.weight      0.354570
+   visual.blocks.1.attn.proj.weight      0.343741
+     visual.patch_embed.proj.weight      0.326214
+   visual.blocks.2.attn.proj.weight      0.316819
+    visual.blocks.1.attn.qkv.weight      0.316528
+   visual.blocks.3.attn.proj.weight      0.305610
+   visual.blocks.4.attn.proj.weight      0.304664
+   visual.blocks.5.attn.proj.weight      0.304147
+   visual.blocks.6.attn.proj.weight      0.301012
+2025-06-25 20:59:52,360 INFO: Saved histogram: sft_change_histogram.png
+2025-06-25 20:59:52,520 INFO: Saved histogram: rl_change_histogram.png
+2025-06-25 20:59:52,524 WARNING: No 'layer.X' parameters found in SFT, skipping layer plot.
+2025-06-25 20:59:52,526 WARNING: No 'layer.X' parameters found in RL, skipping layer plot.
+2025-06-25 20:59:52,526 INFO: === Completed parameter change comparison ===
