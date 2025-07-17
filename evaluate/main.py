@@ -1,7 +1,7 @@
 import argparse
 from datasets import get_dataset
 from models import resolve_model_name, MODEL_ALIASES
-from evaluator import Evaluator
+from evaluator_revised import Evaluator
 
 def get_args():
     p = argparse.ArgumentParser(description="Qwen‑VL Evaluation")
@@ -16,6 +16,9 @@ def get_args():
                    help="'0', '0,1' etc. '', 'cpu' for cpu inference")
     p.add_argument("--batch_size", type=int, default=8, help="batch size")
     p.add_argument("--output_dir", default="./results", help="output folder")
+    p.add_argument("--wandb_project", default="vlm-forgetting", help="name of the wandb project")
+    p.add_argument("--wandb_group_name", default=None, help="group name of the wandb project")
+    p.add_argument("--wandb_run_name", default=None, help="run name of the wandb project")
     return p.parse_args()
 
 def main():
@@ -23,7 +26,7 @@ def main():
     hf_id = resolve_model_name(args.model_name)
 
     dataset, loader, classes = get_dataset(args.dataset, batch=args.batch_size)
-    evaluator = Evaluator(hf_id, args.is_instruct, args.gpus)
+    evaluator = Evaluator(hf_id, args.is_instruct, args.gpus, args.wandb_project, args.wandb_group_name, args.wandb_run_name)
     evaluator.evaluate(dataset, loader, classes, args.output_dir)
 
 if __name__ == "__main__":
