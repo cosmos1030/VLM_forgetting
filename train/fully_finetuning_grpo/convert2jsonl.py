@@ -56,7 +56,7 @@ def dump_split(split: str, dataset_name: str):
                     },
                     {
                         "from": "gpt",
-                        "value": f"The answer is {class_names[label]}." # 답변 형식을 문장으로 수정
+                        "value": class_names[label]
                     }
                 ]
             }

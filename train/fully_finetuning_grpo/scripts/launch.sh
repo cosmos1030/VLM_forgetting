@@ -3,7 +3,7 @@
 # ------------------------------
 # [0] 실행할 학습 스크립트 경로 설정
 # ------------------------------
-TRAIN_SCRIPT="scripts/run_grpo_cifar100.sh"
+TRAIN_SCRIPT="scripts/run_grpo_cifar10_revised.sh"
 LOG_FILE="log/train.out"
 
 # ------------------------------

@@ -60,7 +60,7 @@ if is_peft_available():
 if is_wandb_available():
     import wandb
 
-from open_r1.vlm_modules.vlm_module import VLMBaseModule
+from vlm_modules.vlm_module import VLMBaseModule
 # What we call a reward function is a callable that takes a list of prompts and completions and returns a list of
 # rewards. When it's a string, it's a model ID, so it's loaded as a pretrained model.
 RewardFunc = Union[str, PreTrainedModel, Callable[[list, list], list[float]]]
@@ -552,7 +552,16 @@ class VLMGRPOTrainer(Trainer):
                 images.append(img)
                 
 
-        prompt_inputs, additional_output = self.vlm_module.prepare_model_inputs(
+        # prompt_inputs, additional_output = self.vlm_module.prepare_model_inputs(
+        #     self.processing_class,
+        #     prompts_text,
+        #     images,
+        #     return_tensors="pt",
+        #     padding=True,
+        #     padding_side="left",
+        #     add_special_tokens=False,
+        # )
+        prompt_inputs = self.vlm_module.prepare_model_inputs(
             self.processing_class,
             prompts_text,
             images,
@@ -565,10 +574,10 @@ class VLMGRPOTrainer(Trainer):
         prompt_ids, prompt_mask = prompt_inputs["input_ids"], prompt_inputs["attention_mask"]
 
         # image_grid_thw may be needed for the reward function
-        if additional_output is not None:
-            assert len(additional_output) == len(inputs)
-            for i, (input_i, additional_output_i) in enumerate(zip(inputs, additional_output)):
-                input_i.update(additional_output_i)
+        # if additional_output is not None:
+        #     assert len(additional_output) == len(inputs)
+        #     for i, (input_i, additional_output_i) in enumerate(zip(inputs, additional_output)):
+        #         input_i.update(additional_output_i)
 
 
         # max_prompt_length is not supported yet
