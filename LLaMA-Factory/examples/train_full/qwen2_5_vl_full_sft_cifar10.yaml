@@ -14,7 +14,7 @@ freeze_multi_modal_projector: false  # choices: [true, false]
 deepspeed: examples/deepspeed/ds_z2_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
 
 ### dataset
-dataset: mllm_rec_json
+dataset: mllm_cifar10_json
 template: qwen2_vl
 cutoff_len: 131072
 max_samples: 10000000
@@ -22,7 +22,7 @@ overwrite_cache: true
 preprocessing_num_workers: 10
 
 ### output
-output_dir: saves/qwen2_5_vl-3b/full/sft2
+output_dir: saves/qwen2_5_vl-3b/full/cifar10_sft
 logging_steps: 10
 save_steps: 100
 plot_loss: true
