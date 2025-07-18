@@ -125,7 +125,7 @@ class Evaluator:
             return ["error_empty_input_ids"] * batch_size, [""] * batch_size
 
         gen_kwargs = {
-            "max_new_tokens": 10,
+            "max_new_tokens": 30,
             "do_sample": False,
             "use_cache": True
         }
