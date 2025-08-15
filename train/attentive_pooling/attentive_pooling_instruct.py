@@ -125,8 +125,8 @@ class AttentiveProbingQwenVL(nn.Module):
 # 4. prepare dataset
 # ==============================================================================
 print(f"Loading and preparing {DATASET} dataset...")
-train_dataset_full = DatasetClass(root='./data', train=True, download=True)
-test_dataset = DatasetClass(root='./data', train=False, download=True)
+train_dataset_full = DatasetClass(root='~/data', train=True, download=False)
+test_dataset = DatasetClass(root='~/data', train=False, download=False)
 
 num_train = len(train_dataset_full)
 num_val = int(num_train * VAL_SPLIT)
