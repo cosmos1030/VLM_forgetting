@@ -1,20 +1,18 @@
-#!/bin/bash
-
 # Common args
-PYTHON_SCRIPT="/scratch/sundong/doyoon/playground/forgetting/evaluate/main.py"
+PYTHON_SCRIPT="/public/home/group_ucb/dyk6208/VLM_forgetting/evaluate/main.py"
 DATASET="CIFAR10"
 IS_INSTRUCT=0
 GPUS="0,1,2,3"
-BATCH_SIZE=128
-OUT_DIR="./results/dummy"
+BATCH_SIZE=512
+BASE_RUN_NAME="sft_train_cifar100_test_cifar10_qwen2"
 WANDB_PROJECT="vlm-forgetting"
-WANDB_GROUP="sft_train_cifar100_test_cifar10_qwen2"
+WANDB_GROUP=$BASE_RUN_NAME
 
-
-# Finetuned checkpoints: 1000 ~ 7000
-for step in {1000..6000..1000}; do
-  MODEL_NAME="/scratch/sundong/doyoon/playground/forgetting/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-${step}"
-  RUN_NAME="sft_train_cifar100_test_cifar10_qwen2_step_${step}"
+# Finetuned checkpoints: 200 ~ 1800
+for step in {5000..30000..5000}; do
+  RUN_NAME="${step}_steps"
+  MODEL_NAME="/public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-${step}"
+  OUT_DIR="./results/${BASE_RUN_NAME}/${RUN_NAME}"
 
   echo "▶ Running: $RUN_NAME"
   python "$PYTHON_SCRIPT" \
@@ -28,3 +26,4 @@ for step in {1000..6000..1000}; do
     --wandb_group_name "$WANDB_GROUP" \
     --wandb_run_name "$RUN_NAME"
 done
+

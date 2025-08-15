@@ -30,7 +30,7 @@ class Evaluator:
         else:
             print("Using CPU")
 
-        cfg = AutoConfig.from_pretrained(hf_model_id)
+        cfg = AutoConfig.from_pretrained(hf_model_id, local_files_only=True)
         self.actual_model_type_from_config = cfg.model_type
         print(f"HF Config model_type: {self.actual_model_type_from_config} for {hf_model_id}")
 
@@ -41,7 +41,8 @@ class Evaluator:
                 hf_model_id,
                 torch_dtype="auto",
                 device_map="auto" if self.multi_gpu else None,
-                trust_remote_code=True
+                trust_remote_code=True,
+		local_files_only=True
             ).eval()
             self.model_family = "qwen_noninstruct_like"
         elif self.actual_model_type_from_config == "qwen2_vl" or \
@@ -69,7 +70,7 @@ class Evaluator:
         else:
             raise ValueError(f"[Evaluator] Unsupported hf_model_id or model_type: {hf_model_id} / {self.actual_model_type_from_config}")
 
-        self.processor = AutoProcessor.from_pretrained(hf_model_id)
+        self.processor = AutoProcessor.from_pretrained(hf_model_id, local_files_only=True)
 
     @torch.no_grad()
     def _predict_batch(self, imgs: List[Image.Image], prompt_text: str, all_class_names: List[str]) -> Tuple[List[str], List[str]]:

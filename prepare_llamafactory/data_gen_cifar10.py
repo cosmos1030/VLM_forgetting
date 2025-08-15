@@ -6,7 +6,7 @@ from PIL import Image
 from tqdm import tqdm
 
 def main():
-    raw_root = './data'
+    raw_root = '~/data'
     cifar = CIFAR10(root=raw_root, train=True, download=False)
     classes = cifar.classes
     classes_str = ', '.join(classes)

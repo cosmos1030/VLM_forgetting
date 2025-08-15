@@ -2,7 +2,7 @@ import torchvision
 import torch
 from typing import Tuple, List
 
-def get_dataset(name: str, root: str = "./data", batch: int = 8
+def get_dataset(name: str, root: str = "~/data", batch: int = 8
                ) -> Tuple[torch.utils.data.Dataset,
                           torch.utils.data.DataLoader,
                           List[str]]:

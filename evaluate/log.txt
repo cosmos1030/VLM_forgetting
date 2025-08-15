@@ -1,0 +1,295 @@
+▶ Running: 1000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-1000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-1000 as Qwen2.5-VL family.
+First batch visualizations saved to ./results/sft_train_cifar100_test_cifar10_qwen2_5/12000_steps/12000_steps_20250807_125511_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar100_test_cifar10_qwen2_5/12000_steps/12000_steps_20250807_125511_accuracy.csv
+All predictions saved to ./results/sft_train_cifar100_test_cifar10_qwen2_5/12000_steps/12000_steps_20250807_125511_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-12000 on data — Accuracy 82.15% (8215/10000)
+Results saved in ./results/sft_train_cifar100_test_cifar10_qwen2_5/12000_steps
+Logging results to wandb...
+Finished logging to wandb.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/1000_steps/1000_steps_20250807_125611_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/1000_steps/1000_steps_20250807_125611_accuracy.csv
+All predictions saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/1000_steps/1000_steps_20250807_125611_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-1000 on data — Accuracy 80.17% (8017/10000)
+Results saved in ./results/sft_train_cifar100_test_mnist_qwen2_5/1000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 2000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-2000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-2000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/2000_steps/2000_steps_20250807_125729_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/2000_steps/2000_steps_20250807_125729_accuracy.csv
+All predictions saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/2000_steps/2000_steps_20250807_125729_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-2000 on data — Accuracy 81.40% (8140/10000)
+Results saved in ./results/sft_train_cifar100_test_mnist_qwen2_5/2000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 3000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-3000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-3000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/3000_steps/3000_steps_20250807_125846_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/3000_steps/3000_steps_20250807_125846_accuracy.csv
+All predictions saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/3000_steps/3000_steps_20250807_125846_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-3000 on data — Accuracy 80.79% (8079/10000)
+Results saved in ./results/sft_train_cifar100_test_mnist_qwen2_5/3000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 4000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-4000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-4000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/4000_steps/4000_steps_20250807_130005_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/4000_steps/4000_steps_20250807_130005_accuracy.csv
+All predictions saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/4000_steps/4000_steps_20250807_130005_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-4000 on data — Accuracy 79.36% (7936/10000)
+Results saved in ./results/sft_train_cifar100_test_mnist_qwen2_5/4000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 5000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-5000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-5000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/5000_steps/5000_steps_20250807_130122_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/5000_steps/5000_steps_20250807_130122_accuracy.csv
+All predictions saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/5000_steps/5000_steps_20250807_130122_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-5000 on data — Accuracy 79.88% (7988/10000)
+Results saved in ./results/sft_train_cifar100_test_mnist_qwen2_5/5000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 6000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-6000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-6000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/6000_steps/6000_steps_20250807_130239_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/6000_steps/6000_steps_20250807_130239_accuracy.csv
+All predictions saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/6000_steps/6000_steps_20250807_130239_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-6000 on data — Accuracy 79.21% (7921/10000)
+Results saved in ./results/sft_train_cifar100_test_mnist_qwen2_5/6000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 7000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-7000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-7000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/7000_steps/7000_steps_20250807_130357_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/7000_steps/7000_steps_20250807_130357_accuracy.csv
+All predictions saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/7000_steps/7000_steps_20250807_130357_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-7000 on data — Accuracy 80.90% (8090/10000)
+Results saved in ./results/sft_train_cifar100_test_mnist_qwen2_5/7000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 8000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-8000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-8000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/8000_steps/8000_steps_20250807_130516_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/8000_steps/8000_steps_20250807_130516_accuracy.csv
+All predictions saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/8000_steps/8000_steps_20250807_130516_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-8000 on data — Accuracy 81.43% (8143/10000)
+Results saved in ./results/sft_train_cifar100_test_mnist_qwen2_5/8000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 9000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-9000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-9000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/9000_steps/9000_steps_20250807_130632_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/9000_steps/9000_steps_20250807_130632_accuracy.csv
+All predictions saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/9000_steps/9000_steps_20250807_130632_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-9000 on data — Accuracy 81.11% (8111/10000)
+Results saved in ./results/sft_train_cifar100_test_mnist_qwen2_5/9000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 10000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-10000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-10000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/10000_steps/10000_steps_20250807_130749_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/10000_steps/10000_steps_20250807_130749_accuracy.csv
+All predictions saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/10000_steps/10000_steps_20250807_130749_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-10000 on data — Accuracy 81.10% (8110/10000)
+Results saved in ./results/sft_train_cifar100_test_mnist_qwen2_5/10000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 11000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-11000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-11000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/11000_steps/11000_steps_20250807_130906_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/11000_steps/11000_steps_20250807_130906_accuracy.csv
+All predictions saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/11000_steps/11000_steps_20250807_130906_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-11000 on data — Accuracy 80.98% (8098/10000)
+Results saved in ./results/sft_train_cifar100_test_mnist_qwen2_5/11000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 12000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-12000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-12000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/12000_steps/12000_steps_20250807_131025_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/12000_steps/12000_steps_20250807_131025_accuracy.csv
+All predictions saved to ./results/sft_train_cifar100_test_mnist_qwen2_5/12000_steps/12000_steps_20250807_131025_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar100_sft/checkpoint-12000 on data — Accuracy 81.11% (8111/10000)
+Results saved in ./results/sft_train_cifar100_test_mnist_qwen2_5/12000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 1000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-1000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-1000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/1000_steps/1000_steps_20250807_131142_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/1000_steps/1000_steps_20250807_131142_accuracy.csv
+All predictions saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/1000_steps/1000_steps_20250807_131142_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-1000 on data — Accuracy 76.45% (7645/10000)
+Results saved in ./results/sft_train_cifar10_test_mnist_qwen2_5/1000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 2000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-2000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-2000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/2000_steps/2000_steps_20250807_131259_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/2000_steps/2000_steps_20250807_131259_accuracy.csv
+All predictions saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/2000_steps/2000_steps_20250807_131259_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-2000 on data — Accuracy 81.43% (8143/10000)
+Results saved in ./results/sft_train_cifar10_test_mnist_qwen2_5/2000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 3000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-3000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-3000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/3000_steps/3000_steps_20250807_131416_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/3000_steps/3000_steps_20250807_131416_accuracy.csv
+All predictions saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/3000_steps/3000_steps_20250807_131416_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-3000 on data — Accuracy 83.71% (8371/10000)
+Results saved in ./results/sft_train_cifar10_test_mnist_qwen2_5/3000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 4000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-4000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-4000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/4000_steps/4000_steps_20250807_131533_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/4000_steps/4000_steps_20250807_131533_accuracy.csv
+All predictions saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/4000_steps/4000_steps_20250807_131533_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-4000 on data — Accuracy 82.57% (8257/10000)
+Results saved in ./results/sft_train_cifar10_test_mnist_qwen2_5/4000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 5000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-5000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-5000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/5000_steps/5000_steps_20250807_131649_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/5000_steps/5000_steps_20250807_131649_accuracy.csv
+All predictions saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/5000_steps/5000_steps_20250807_131649_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-5000 on data — Accuracy 82.92% (8292/10000)
+Results saved in ./results/sft_train_cifar10_test_mnist_qwen2_5/5000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 6000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-6000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-6000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/6000_steps/6000_steps_20250807_131805_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/6000_steps/6000_steps_20250807_131805_accuracy.csv
+All predictions saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/6000_steps/6000_steps_20250807_131805_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-6000 on data — Accuracy 83.07% (8307/10000)
+Results saved in ./results/sft_train_cifar10_test_mnist_qwen2_5/6000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 7000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-7000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-7000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/7000_steps/7000_steps_20250807_131923_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/7000_steps/7000_steps_20250807_131923_accuracy.csv
+All predictions saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/7000_steps/7000_steps_20250807_131923_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-7000 on data — Accuracy 83.30% (8330/10000)
+Results saved in ./results/sft_train_cifar10_test_mnist_qwen2_5/7000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 8000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-8000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-8000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/8000_steps/8000_steps_20250807_132040_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/8000_steps/8000_steps_20250807_132040_accuracy.csv
+All predictions saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/8000_steps/8000_steps_20250807_132040_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-8000 on data — Accuracy 83.53% (8353/10000)
+Results saved in ./results/sft_train_cifar10_test_mnist_qwen2_5/8000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 9000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-9000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-9000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/9000_steps/9000_steps_20250807_132156_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/9000_steps/9000_steps_20250807_132156_accuracy.csv
+All predictions saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/9000_steps/9000_steps_20250807_132156_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-9000 on data — Accuracy 83.74% (8374/10000)
+Results saved in ./results/sft_train_cifar10_test_mnist_qwen2_5/9000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 10000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-10000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-10000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/10000_steps/10000_steps_20250807_132312_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/10000_steps/10000_steps_20250807_132312_accuracy.csv
+All predictions saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/10000_steps/10000_steps_20250807_132312_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-10000 on data — Accuracy 83.74% (8374/10000)
+Results saved in ./results/sft_train_cifar10_test_mnist_qwen2_5/10000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 11000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-11000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-11000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/11000_steps/11000_steps_20250807_132429_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/11000_steps/11000_steps_20250807_132429_accuracy.csv
+All predictions saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/11000_steps/11000_steps_20250807_132429_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-11000 on data — Accuracy 83.85% (8385/10000)
+Results saved in ./results/sft_train_cifar10_test_mnist_qwen2_5/11000_steps
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: 12000_steps
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_5_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-12000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-12000 as Qwen2.5-VL family.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/12000_steps/12000_steps_20250807_132547_visual_first_batch.png
+Accuracy stats saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/12000_steps/12000_steps_20250807_132547_accuracy.csv
+All predictions saved to ./results/sft_train_cifar10_test_mnist_qwen2_5/12000_steps/12000_steps_20250807_132547_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_5_vl-3b/full/cifar10_sft/checkpoint-12000 on data — Accuracy 83.86% (8386/10000)
+Results saved in ./results/sft_train_cifar10_test_mnist_qwen2_5/12000_steps
+Logging results to wandb...
+Finished logging to wandb.

@@ -1,0 +1,252 @@
+▶ Running: grpo_train_sat_test_mnist_qwen2_step_500
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-500
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-500 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_500_20250806_003729_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_500_20250806_003729_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_500_20250806_003729_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-500 on data — Accuracy 75.63% (7563/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_mnist_qwen2_step_1000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1000
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_1000_20250806_003904_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_1000_20250806_003904_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_1000_20250806_003904_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1000 on data — Accuracy 69.20% (6920/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_mnist_qwen2_step_1500
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1500
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1500 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_1500_20250806_004037_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_1500_20250806_004037_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_1500_20250806_004037_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1500 on data — Accuracy 67.96% (6796/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_mnist_qwen2_step_2000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2000
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_2000_20250806_004159_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_2000_20250806_004159_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_2000_20250806_004159_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2000 on data — Accuracy 66.40% (6640/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_mnist_qwen2_step_2500
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2500
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2500 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_2500_20250806_004320_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_2500_20250806_004320_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_2500_20250806_004320_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2500 on data — Accuracy 70.76% (7076/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_mnist_qwen2_step_3000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3000
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_3000_20250806_004441_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_3000_20250806_004441_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_3000_20250806_004441_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3000 on data — Accuracy 71.37% (7137/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_mnist_qwen2_step_3500
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3500
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3500 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_3500_20250806_004603_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_3500_20250806_004603_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_mnist_qwen2_step_3500_20250806_004603_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3500 on data — Accuracy 71.79% (7179/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_cifar10_qwen2_step_500
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-500
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-500 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_500_20250806_004725_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_500_20250806_004725_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_500_20250806_004725_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-500 on data — Accuracy 84.06% (8406/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_cifar10_qwen2_step_1000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1000
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_1000_20250806_004857_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_1000_20250806_004857_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_1000_20250806_004857_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1000 on data — Accuracy 84.05% (8405/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_cifar10_qwen2_step_1500
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1500
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1500 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_1500_20250806_005030_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_1500_20250806_005030_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_1500_20250806_005030_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1500 on data — Accuracy 84.02% (8402/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_cifar10_qwen2_step_2000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2000
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_2000_20250806_005200_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_2000_20250806_005200_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_2000_20250806_005200_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2000 on data — Accuracy 82.71% (8271/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_cifar10_qwen2_step_2500
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2500
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2500 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_2500_20250806_005331_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_2500_20250806_005331_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_2500_20250806_005331_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2500 on data — Accuracy 85.70% (8570/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_cifar10_qwen2_step_3000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3000
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_3000_20250806_005452_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_3000_20250806_005452_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_3000_20250806_005452_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3000 on data — Accuracy 85.70% (8570/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_cifar10_qwen2_step_3500
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3500
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3500 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_3500_20250806_005614_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_3500_20250806_005614_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_cifar10_qwen2_step_3500_20250806_005614_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3500 on data — Accuracy 85.90% (8590/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_cifar100_qwen2_step_500
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-500
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-500 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_500_20250806_005734_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_500_20250806_005734_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_500_20250806_005734_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-500 on data — Accuracy 35.42% (3542/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_cifar100_qwen2_step_1000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1000
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_1000_20250806_005948_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_1000_20250806_005948_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_1000_20250806_005948_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1000 on data — Accuracy 35.87% (3587/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_cifar100_qwen2_step_1500
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1500
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1500 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_1500_20250806_010200_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_1500_20250806_010200_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_1500_20250806_010200_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-1500 on data — Accuracy 36.51% (3651/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_cifar100_qwen2_step_2000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2000
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_2000_20250806_010413_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_2000_20250806_010413_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_2000_20250806_010413_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2000 on data — Accuracy 36.22% (3622/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_cifar100_qwen2_step_2500
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2500
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2500 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_2500_20250806_010627_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_2500_20250806_010627_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_2500_20250806_010627_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-2500 on data — Accuracy 38.63% (3863/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_cifar100_qwen2_step_3000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3000
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_3000_20250806_010837_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_3000_20250806_010837_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_3000_20250806_010837_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3000 on data — Accuracy 38.38% (3838/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: grpo_train_sat_test_cifar100_qwen2_step_3500
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3500
+Loading /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3500 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_3500_20250806_011049_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_3500_20250806_011049_accuracy.csv
+All predictions saved to ./results/dummy/grpo_train_sat_test_cifar100_qwen2_step_3500_20250806_011049_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/VisualThinker-R1-Zero/src/open-r1-multimodal/outputs/Qwen2-VL-2B-GRPO-Base-SAT/checkpoint-3500 on data — Accuracy 38.26% (3826/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.

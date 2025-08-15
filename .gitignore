@@ -1,0 +1,12 @@
+*.log
+*.out
+wandb/
+__pycache__/
+evaluate/data/
+train/fully_finetuning_grpo/checkpoints/
+image*/
+*slurm*
+runs/
+data/
+cifar10/
+cifar100/

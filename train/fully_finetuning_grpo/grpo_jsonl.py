@@ -108,7 +108,7 @@ class GRPOScriptArguments(ScriptArguments):
 
 
 def classification_reward(content, sol, dataset_name, **kwargs):
-    root = './data'
+    root = '~/data'
     if dataset_name[0] == 'cifar10':
         ds = torchvision.datasets.CIFAR10(root, train=False, download=True)
         all_class_names = ds.classes

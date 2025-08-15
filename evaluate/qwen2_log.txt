@@ -1,0 +1,648 @@
+▶ Running: sft_train_cifar100_test_cifar10_qwen2_step_400
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-400
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-400 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_400_20250805_230615_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_400_20250805_230615_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_400_20250805_230615_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-400 on data — Accuracy 88.46% (8846/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar10_qwen2_step_800
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-800
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-800 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_800_20250805_230734_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_800_20250805_230734_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_800_20250805_230734_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-800 on data — Accuracy 89.12% (8912/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar10_qwen2_step_1200
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1200
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1200 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_1200_20250805_230855_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_1200_20250805_230855_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_1200_20250805_230855_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1200 on data — Accuracy 85.49% (8549/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar10_qwen2_step_1600
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1600
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1600 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_1600_20250805_231014_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_1600_20250805_231014_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_1600_20250805_231014_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1600 on data — Accuracy 87.67% (8767/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar10_qwen2_step_2000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_2000_20250805_231133_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_2000_20250805_231133_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_2000_20250805_231133_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2000 on data — Accuracy 85.21% (8521/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar10_qwen2_step_2400
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2400
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2400 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_2400_20250805_231253_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_2400_20250805_231253_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_2400_20250805_231253_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2400 on data — Accuracy 85.40% (8540/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar10_qwen2_step_2800
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2800
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2800 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_2800_20250805_231413_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_2800_20250805_231413_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_2800_20250805_231413_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2800 on data — Accuracy 85.87% (8587/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar10_qwen2_step_3200
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3200
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3200 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_3200_20250805_231533_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_3200_20250805_231533_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_3200_20250805_231533_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3200 on data — Accuracy 86.06% (8606/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar10_qwen2_step_3600
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3600
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3600 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_3600_20250805_231653_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_3600_20250805_231653_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar10_qwen2_step_3600_20250805_231653_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3600 on data — Accuracy 85.94% (8594/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar100_qwen2_step_400
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-400
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-400 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_400_20250805_231814_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_400_20250805_231814_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_400_20250805_231814_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-400 on data — Accuracy 69.02% (6902/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar100_qwen2_step_800
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-800
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-800 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_800_20250805_231959_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_800_20250805_231959_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_800_20250805_231959_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-800 on data — Accuracy 76.94% (7694/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar100_qwen2_step_1200
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1200
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1200 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_1200_20250805_232143_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_1200_20250805_232143_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_1200_20250805_232143_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1200 on data — Accuracy 81.81% (8181/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar100_qwen2_step_1600
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1600
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1600 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_1600_20250805_232328_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_1600_20250805_232328_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_1600_20250805_232328_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1600 on data — Accuracy 84.99% (8499/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar100_qwen2_step_2000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_2000_20250805_232513_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_2000_20250805_232513_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_2000_20250805_232513_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2000 on data — Accuracy 87.90% (8790/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar100_qwen2_step_2400
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2400
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2400 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_2400_20250805_232658_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_2400_20250805_232658_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_2400_20250805_232658_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2400 on data — Accuracy 90.02% (9002/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar100_qwen2_step_2800
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2800
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2800 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_2800_20250805_232843_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_2800_20250805_232843_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_2800_20250805_232843_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2800 on data — Accuracy 91.10% (9110/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar100_qwen2_step_3200
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3200
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3200 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_3200_20250805_233029_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_3200_20250805_233029_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_3200_20250805_233029_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3200 on data — Accuracy 91.93% (9193/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_cifar100_qwen2_step_3600
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3600
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3600 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_3600_20250805_233215_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_3600_20250805_233215_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_cifar100_qwen2_step_3600_20250805_233215_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3600 on data — Accuracy 92.17% (9217/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_mnist_qwen2_step_400
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-400
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-400 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_400_20250805_234730_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_400_20250805_234730_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_400_20250805_234730_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-400 on data — Accuracy 75.29% (7529/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_mnist_qwen2_step_800
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-800
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-800 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_800_20250805_234845_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_800_20250805_234845_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_800_20250805_234845_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-800 on data — Accuracy 75.42% (7542/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_mnist_qwen2_step_1200
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1200
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1200 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_1200_20250805_234959_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_1200_20250805_234959_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_1200_20250805_234959_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1200 on data — Accuracy 73.10% (7310/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_mnist_qwen2_step_1600
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1600
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1600 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_1600_20250805_235111_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_1600_20250805_235111_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_1600_20250805_235111_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-1600 on data — Accuracy 73.63% (7363/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_mnist_qwen2_step_2000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_2000_20250805_235227_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_2000_20250805_235227_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_2000_20250805_235227_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2000 on data — Accuracy 72.29% (7229/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_mnist_qwen2_step_2400
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2400
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2400 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_2400_20250805_235340_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_2400_20250805_235340_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_2400_20250805_235340_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2400 on data — Accuracy 74.46% (7446/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_mnist_qwen2_step_2800
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2800
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2800 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_2800_20250805_235502_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_2800_20250805_235502_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_2800_20250805_235502_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-2800 on data — Accuracy 74.67% (7467/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_mnist_qwen2_step_3200
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3200
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3200 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_3200_20250805_235616_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_3200_20250805_235616_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_3200_20250805_235616_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3200 on data — Accuracy 74.87% (7487/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar100_test_mnist_qwen2_step_3600
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3600
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3600 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_3600_20250805_235731_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_3600_20250805_235731_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar100_test_mnist_qwen2_step_3600_20250805_235731_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar100_sft/checkpoint-3600 on data — Accuracy 74.58% (7458/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar10_qwen2_step_400
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-400
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-400 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_400_20250805_235847_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_400_20250805_235847_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_400_20250805_235847_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-400 on data — Accuracy 88.45% (8845/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar10_qwen2_step_800
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-800
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-800 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_800_20250806_000002_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_800_20250806_000002_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_800_20250806_000002_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-800 on data — Accuracy 89.14% (8914/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar10_qwen2_step_1200
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1200
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1200 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_1200_20250806_000116_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_1200_20250806_000116_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_1200_20250806_000116_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1200 on data — Accuracy 85.52% (8552/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar10_qwen2_step_1600
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1600
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1600 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_1600_20250806_000229_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_1600_20250806_000229_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_1600_20250806_000229_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1600 on data — Accuracy 87.66% (8766/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar10_qwen2_step_2000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_2000_20250806_000343_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_2000_20250806_000343_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_2000_20250806_000343_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2000 on data — Accuracy 85.22% (8522/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar10_qwen2_step_2400
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2400
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2400 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_2400_20250806_000458_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_2400_20250806_000458_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_2400_20250806_000458_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2400 on data — Accuracy 85.41% (8541/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar10_qwen2_step_2800
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2800
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2800 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_2800_20250806_000612_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_2800_20250806_000612_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_2800_20250806_000612_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2800 on data — Accuracy 85.84% (8584/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar10_qwen2_step_3200
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3200
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3200 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_3200_20250806_000726_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_3200_20250806_000726_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_3200_20250806_000726_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3200 on data — Accuracy 86.05% (8605/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar10_qwen2_step_3600
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3600
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3600 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_3600_20250806_000841_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_3600_20250806_000841_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar10_qwen2_step_3600_20250806_000841_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3600 on data — Accuracy 85.97% (8597/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar100_qwen2_step_400
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-400
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-400 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_400_20250806_000956_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_400_20250806_000956_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_400_20250806_000956_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-400 on data — Accuracy 69.02% (6902/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar100_qwen2_step_800
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-800
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-800 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_800_20250806_001142_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_800_20250806_001142_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_800_20250806_001142_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-800 on data — Accuracy 76.94% (7694/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar100_qwen2_step_1200
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1200
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1200 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_1200_20250806_001329_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_1200_20250806_001329_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_1200_20250806_001329_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1200 on data — Accuracy 81.81% (8181/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar100_qwen2_step_1600
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1600
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1600 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_1600_20250806_001518_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_1600_20250806_001518_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_1600_20250806_001518_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1600 on data — Accuracy 84.99% (8499/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar100_qwen2_step_2000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_2000_20250806_001705_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_2000_20250806_001705_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_2000_20250806_001705_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2000 on data — Accuracy 87.90% (8790/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar100_qwen2_step_2400
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2400
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2400 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_2400_20250806_001852_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_2400_20250806_001852_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_2400_20250806_001852_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2400 on data — Accuracy 90.02% (9002/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar100_qwen2_step_2800
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2800
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2800 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_2800_20250806_002040_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_2800_20250806_002040_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_2800_20250806_002040_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2800 on data — Accuracy 91.10% (9110/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar100_qwen2_step_3200
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3200
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3200 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_3200_20250806_002227_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_3200_20250806_002227_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_3200_20250806_002227_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3200 on data — Accuracy 91.93% (9193/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_cifar100_qwen2_step_3600
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3600
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3600 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: apple, aquarium_fish, baby, bear, beaver, bed, bee, beetle, bicycle, bottle, bowl, boy, bridge, bus, butterfly, camel, can, castle, caterpillar, cattle, chair, chimpanzee, clock, cloud, cockroach, couch, crab, crocodile, cup, dinosaur, dolphin, elephant, flatfish, forest, fox, girl, hamster, house, kangaroo, keyboard, lamp, lawn_mower, leopard, lion, lizard, lobster, man, maple_tree, motorcycle, mountain, mouse, mushroom, oak_tree, orange, orchid, otter, palm_tree, pear, pickup_truck, pine_tree, plain, plate, poppy, porcupine, possum, rabbit, raccoon, ray, road, rocket, rose, sea, seal, shark, shrew, skunk, skyscraper, snail, snake, spider, squirrel, streetcar, sunflower, sweet_pepper, table, tank, telephone, television, tiger, tractor, train, trout, tulip, turtle, wardrobe, whale, willow_tree, wolf, woman, worm. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_3600_20250806_002414_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_3600_20250806_002414_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_cifar100_qwen2_step_3600_20250806_002414_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3600 on data — Accuracy 92.17% (9217/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_mnist_qwen2_step_400
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-400
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-400 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_400_20250806_002559_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_400_20250806_002559_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_400_20250806_002559_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-400 on data — Accuracy 75.29% (7529/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_mnist_qwen2_step_800
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-800
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-800 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_800_20250806_002714_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_800_20250806_002714_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_800_20250806_002714_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-800 on data — Accuracy 75.42% (7542/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_mnist_qwen2_step_1200
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1200
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1200 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_1200_20250806_002827_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_1200_20250806_002827_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_1200_20250806_002827_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1200 on data — Accuracy 73.10% (7310/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_mnist_qwen2_step_1600
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1600
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1600 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_1600_20250806_002941_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_1600_20250806_002941_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_1600_20250806_002941_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-1600 on data — Accuracy 73.63% (7363/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_mnist_qwen2_step_2000
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2000
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2000 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_2000_20250806_003056_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_2000_20250806_003056_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_2000_20250806_003056_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2000 on data — Accuracy 72.29% (7229/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_mnist_qwen2_step_2400
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2400
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2400 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_2400_20250806_003209_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_2400_20250806_003209_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_2400_20250806_003209_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2400 on data — Accuracy 74.46% (7446/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_mnist_qwen2_step_2800
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2800
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2800 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_2800_20250806_003322_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_2800_20250806_003322_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_2800_20250806_003322_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-2800 on data — Accuracy 74.67% (7467/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_mnist_qwen2_step_3200
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3200
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3200 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_3200_20250806_003436_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_3200_20250806_003436_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_3200_20250806_003436_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3200 on data — Accuracy 74.87% (7487/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.
+▶ Running: sft_train_cifar10_test_mnist_qwen2_step_3600
+Using GPU(s): 0,1,2,3
+HF Config model_type: qwen2_vl for /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3600
+Loading /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3600 using non-instruct model logic.
+Using prompt: What is the main object in this image? Choose one word from these options: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Answer in the form: 'The answer is [object name].'
+First batch visualizations saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_3600_20250806_003553_visual_first_batch.png
+Accuracy stats saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_3600_20250806_003553_accuracy.csv
+All predictions saved to ./results/dummy/sft_train_cifar10_test_mnist_qwen2_step_3600_20250806_003553_predictions.csv
+▶ Finished /public/home/group_ucb/dyk6208/LLaMA-Factory/saves/qwen2_vl-2b/full/cifar10_sft/checkpoint-3600 on data — Accuracy 74.58% (7458/10000)
+Results saved in ./results/dummy
+Logging results to wandb...
+Finished logging to wandb.

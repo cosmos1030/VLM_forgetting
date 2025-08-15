@@ -6,7 +6,7 @@ from PIL import Image
 from tqdm import tqdm
 
 def main():
-    raw_root = './data'
+    raw_root = '~/data'
     cifar = CIFAR100(root=raw_root, train=True, download=False)
     classes = cifar.classes
     classes_str = ', '.join(classes)
@@ -36,7 +36,7 @@ def main():
         }
         all_entries.append(entry)
 
-    out_path = './mllm_cifar10.json'
+    out_path = './mllm_cifar100.json'
     with open(out_path, 'w', encoding='utf-8') as fout:
         json.dump(all_entries, fout, ensure_ascii=False, indent=2)
 

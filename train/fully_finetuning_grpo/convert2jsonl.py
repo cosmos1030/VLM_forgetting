@@ -3,7 +3,7 @@ import json
 from torchvision.datasets import CIFAR10, CIFAR100
 
 # Specify the dataset: 'cifar10' or 'cifar100'
-dataset_name = 'cifar100'
+dataset_name = 'cifar10'
 
 def dump_split(split: str, dataset_name: str):
     """
@@ -26,7 +26,7 @@ def dump_split(split: str, dataset_name: str):
 
     # Load the dataset without any transforms to get PIL images
     is_train = (split == "train")
-    ds = dataset_class(root="./data", train=is_train, download=True)
+    ds = dataset_class(root="~/data", train=is_train, download=True)
     class_names = ds.classes
 
     # --- 2. Prepare output directories and files ---

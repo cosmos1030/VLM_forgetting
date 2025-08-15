@@ -672,8 +672,8 @@ class VLMGRPOTrainer(Trainer):
                 for key in reward_kwargs:
                     for example in inputs:
                         # No need to duplicate prompts as we're not generating multiple completions per prompt
-                        # reward_kwargs[key].extend([example[key]] * self.num_generations)
-                        reward_kwargs[key].extend([example[key]])
+                        reward_kwargs[key].extend([example[key]] * self.num_generations)
+                        #reward_kwargs[key].extend([example[key]])
                 output_reward_func = reward_func(prompts=prompts, completions=completions, **reward_kwargs)
                 rewards_per_func[:, i] = torch.tensor(output_reward_func, dtype=torch.float32, device=device)
 
