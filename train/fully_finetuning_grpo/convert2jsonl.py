@@ -3,7 +3,7 @@ import json
 from torchvision.datasets import CIFAR10, CIFAR100
 
 # Specify the dataset: 'cifar10' or 'cifar100'
-dataset_name = 'cifar10'
+dataset_name = 'cifar100'
 
 def dump_split(split: str, dataset_name: str):
     """
@@ -36,7 +36,7 @@ def dump_split(split: str, dataset_name: str):
 
     # --- 3. Dynamically create the prompt for the JSONL file ---
     options_str = ", ".join(class_names)
-    human_prompt = f"<image>What is the main object in this image? Choose one word from these options: {options_str}."
+    human_prompt = f"<image>What is the main object in this image? Choose one word from these options: {options_str}. Answer in the form: 'The answer is [object name].'"
 
     # --- 4. Process and save each item in the dataset ---
     with open(out_jsonl_path, "w", encoding='utf-8') as fw:
